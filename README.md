@@ -5,7 +5,7 @@
 **Backend Software Engineer @ Cognizant** · Chennai, India  
 Java · Spring Boot · REST APIs · Microservices · ML Engineering
 
-[![Live Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live-gold?style=for-the-badge)](https://portfolio-8i19qi0i3-g5vickys-projects.vercel.app/)
+[![Live Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live-gold?style=for-the-badge)](https://portfolio-tawny-five-pjq9mei2mp.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vigneshwar-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gurrapu-vigneshwar-95b26b265/)
 [![GitHub](https://img.shields.io/badge/GitHub-G5Vicky-181717?style=for-the-badge&logo=github)](https://github.com/G5Vicky)
 [![Email](https://img.shields.io/badge/Email-gurrapuvigneshwar0056@gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:gurrapuvigneshwar0056@gmail.com)
