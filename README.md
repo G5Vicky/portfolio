@@ -113,56 +113,6 @@ Apr 2024 – Jun 2024  Business Analyst Intern @ Qlik (Remote)
 | **Analytics** | Qlik Sense, KPI Dashboard Design |
 | **Concepts** | OOP, RESTful APIs, Microservices, Agile |
 
----
-
-## 📄 Resume
-
-The PDF resume is included in this repo as `Vigneshwar_ResUmee.pdf`.
-
-**To update the resume later:**
-1. Export your new resume as a PDF
-2. Rename it to exactly: `Vigneshwar_ResUmee.pdf`
-3. Replace the old file in the folder
-4. Run:
-```bash
-git add Vigneshwar_ResUmee.pdf
-git commit -m "chore: update resume"
-git push origin main
-```
-Vercel auto-redeploys in ~60 seconds. Recruiters hitting the Download button will always get the latest version. ✅
-
----
-
-## 🚀 Running Locally
-
-No build step. No package.json. No `npm install`. Just:
-
-```bash
-# Option 1 — Direct browser open
-open index.html
-
-# Option 2 — VS Code Live Server (recommended)
-# Right-click index.html → "Open with Live Server"
-
-# Option 3 — Python
-python3 -m http.server 8080
-# Visit http://localhost:8080
-```
-
----
-
-## ☁️ Deployment
-
-Hosted on **Vercel** — auto-deploys on every push to `main`.
-
-**First-time deploy:**
-1. Push to GitHub
-2. Go to [vercel.com](https://vercel.com) → **Add New Project**
-3. Import this repo
-4. Leave all settings as default
-5. Hit **Deploy** — done
-
-Every subsequent `git push origin main` triggers an automatic redeploy. Zero manual intervention.
 
 ---
 
