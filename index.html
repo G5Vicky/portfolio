@@ -373,8 +373,7 @@ section {
 }
 .hero-name-accent { color: var(--accent); }
 .hero-name-last {
-  -webkit-text-stroke: 1px rgba(240, 237, 232, 0.3);
-  color: transparent;
+  color: var(--accent);
 }
 
 .hero-role {
@@ -636,6 +635,18 @@ section {
   align-items: center;
   justify-content: center;
   min-height: 300px;
+}
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background: #0b0b0b;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.project-visual:hover .project-image {
+  transform: scale(1.03);
 }
 
 /* Auto Insurance Visual */
@@ -1812,47 +1823,7 @@ footer {
 
   <div class="project-featured reveal reveal-delay-1">
     <div class="project-visual visual-insurance">
-      <div class="vis-content">
-        <div class="vis-window">
-          <div class="vis-titlebar">
-            <div class="vis-dot vis-dot-r"></div>
-            <div class="vis-dot vis-dot-y"></div>
-            <div class="vis-dot vis-dot-g"></div>
-          </div>
-          <div class="vis-body">
-            <div class="vis-nav">
-              <div class="vis-nav-item active">Dashboard</div>
-              <div class="vis-nav-item">Policies</div>
-              <div class="vis-nav-item">Payments</div>
-            </div>
-            <div class="vis-metric-row">
-              <div class="vis-metric">
-                <div class="vis-metric-val">247</div>
-                <div class="vis-metric-lab">Active Policies</div>
-              </div>
-              <div class="vis-metric">
-                <div class="vis-metric-val">₹14.2L</div>
-                <div class="vis-metric-lab">Premiums</div>
-              </div>
-            </div>
-            <div class="vis-bar-row">
-              <div class="vis-bar-item">
-                <div class="vis-bar-label">Auto</div>
-                <div class="vis-bar-track"><div class="vis-bar-fill" style="width:85%"></div></div>
-              </div>
-              <div class="vis-bar-item">
-                <div class="vis-bar-label">Health</div>
-                <div class="vis-bar-track"><div class="vis-bar-fill" style="width:62%"></div></div>
-              </div>
-              <div class="vis-bar-item">
-                <div class="vis-bar-label">Life</div>
-                <div class="vis-bar-track"><div class="vis-bar-fill" style="width:41%"></div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="vis-badge">● Live on Render</div>
-      </div>
+      <img src="insurance.png" alt="Auto Insurance Project" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-number">01 / Featured</div>
@@ -1897,47 +1868,7 @@ footer {
 
   <div class="project-featured reveal reveal-delay-2" style="flex-direction:row-reverse">
     <div class="project-visual visual-ai">
-      <div class="vis-classifier">
-        <div class="vis-prediction-card">
-          <div class="vis-pred-header">
-            <div class="vis-pred-title">Image Classification</div>
-            <div class="vis-pred-tag tag-ai">AI Generated</div>
-          </div>
-          <div class="vis-image-grid">
-            <div class="vis-img-placeholder vis-img-fake">
-              <div class="vis-img-label" style="color:var(--blue);">AI-GEN</div>
-            </div>
-            <div class="vis-img-placeholder vis-img-real">
-              <div class="vis-img-label" style="color:var(--green);">REAL</div>
-            </div>
-            <div class="vis-img-placeholder vis-img-fake">
-              <div class="vis-img-label" style="color:var(--blue);">AI-GEN</div>
-            </div>
-            <div class="vis-img-placeholder vis-img-real">
-              <div class="vis-img-label" style="color:var(--green);">REAL</div>
-            </div>
-          </div>
-          <div class="vis-accuracy-bar">
-            <div class="vis-acc-header">
-              <div class="vis-acc-label">Model Accuracy</div>
-              <div class="vis-acc-val">93.55%</div>
-            </div>
-            <div class="vis-acc-track">
-              <div class="vis-acc-fill"></div>
-            </div>
-          </div>
-          <div class="vis-heatmap-row">
-            <div class="vis-heat-cell" style="background:rgba(96,165,250,0.1); animation-delay:0s;"></div>
-            <div class="vis-heat-cell" style="background:rgba(96,165,250,0.3); animation-delay:0.2s;"></div>
-            <div class="vis-heat-cell" style="background:rgba(96,165,250,0.6); animation-delay:0.1s;"></div>
-            <div class="vis-heat-cell" style="background:rgba(96,165,250,0.9); animation-delay:0.3s;"></div>
-            <div class="vis-heat-cell" style="background:rgba(248,113,113,0.7); animation-delay:0.15s;"></div>
-            <div class="vis-heat-cell" style="background:rgba(248,113,113,0.4); animation-delay:0.25s;"></div>
-            <div class="vis-heat-cell" style="background:rgba(248,113,113,0.15); animation-delay:0.05s;"></div>
-            <div class="vis-heat-cell" style="background:rgba(96,165,250,0.05); animation-delay:0.35s;"></div>
-          </div>
-        </div>
-      </div>
+      <img src="ai-classifier.png" alt="AI Image Classifier Project" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-number">02 / Featured</div>
@@ -2338,7 +2269,7 @@ footer {
     Open to backend engineering, ML engineering, and full-stack roles. If you're building something interesting, I'd love to talk.
   </p>
   <div class="contact-methods reveal reveal-delay-3">
-    <a href="mailto:gurrapuvigneshwar0056@gmail.com" class="contact-link contact-link-primary" style="cursor:none;">
+    <a href="/cdn-cgi/l/email-protection#97f0e2e5e5f6e7e2e1fef0f9f2e4ffe0f6e5a7a7a2a1d7f0faf6fefbb9f4f8fa" class="contact-link contact-link-primary" style="cursor:none;">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="16" height="16"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
       Send Email
     </a>
@@ -2362,11 +2293,11 @@ footer {
   <div class="footer-links">
     <a href="https://github.com/G5Vicky" target="_blank" rel="noopener">GitHub</a>
     <a href="https://www.linkedin.com/in/gurrapu-vigneshwar-95b26b265" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="mailto:gurrapuvigneshwar0056@gmail.com">Email</a>
+    <a href="/cdn-cgi/l/email-protection#7611030404170603001f111813051e0117044646434036111b171f1a5815191b">Email</a>
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ── Cursor ──
 const cursorDotEl = document.querySelector('#cursorDot .cursor-dot');
 const cursorRingEl = document.querySelector('#cursorRing .cursor-ring');
@@ -2475,12 +2406,7 @@ const heroObserver = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.5 });
 const heroStats = document.querySelector('.hero-stats');
-if (heroStats) heroObserver.observe(heroStats);
 
-// ── Keyboard nav accessibility ──
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeMobile();
-});
 </script>
 </body>
 </html>
