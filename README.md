@@ -6,7 +6,7 @@
 Java · Spring Boot · REST APIs · Microservices · ML Engineering
 
 [![Live Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live-gold?style=for-the-badge)](https://portfolio-8i19qi0i3-g5vickys-projects.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vigneshwar-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-linkedin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vigneshwar-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gurrapu-vigneshwar-95b26b265/)
 [![GitHub](https://img.shields.io/badge/GitHub-G5Vicky-181717?style=for-the-badge&logo=github)](https://github.com/G5Vicky)
 [![Email](https://img.shields.io/badge/Email-gurrapuvigneshwar0056@gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:gurrapuvigneshwar0056@gmail.com)
 
@@ -50,7 +50,7 @@ This isn't a tutorial CRUD app. This is a **multi-module enterprise backend** wi
 
 > Real system. Real architecture. Real deployment.
 
-[GitHub](#) · [Live Demo](#)
+[GitHub](https://github.com/G5Vicky/Auto-Insurance-Enterprise-System) · [Live Demo](https://insuretrack-enterprise.onrender.com/login)
 
 ---
 
@@ -64,7 +64,7 @@ But accuracy alone isn't enough — I added **Grad-CAM explainability**, so you 
 
 > This is what ML engineering looks like when you care about the whole picture.
 
-[GitHub](#) · [Live Demo on Hugging Face](#)
+[GitHub](https://github.com/G5Vicky/AI-Image-Classifier) · [Live Demo on Hugging Face](https://huggingface.co/spaces/Vicky25july2003/ai-image-classifier)
 
 ---
 
@@ -73,7 +73,7 @@ But accuracy alone isn't enough — I added **Grad-CAM explainability**, so you 
 
 Benchmarked four ML models on **284,807 real transactions**. KNN won: **99.56% accuracy, 92.10% fraud sensitivity**. The goal wasn't just accuracy — it was minimizing *missed fraud*, which costs real people real money.
 
-[GitHub](#)
+[GitHub](https://github.com/G5Vicky/Credit_card_fraud_detection_repo)
 
 ---
 
@@ -82,7 +82,7 @@ Benchmarked four ML models on **284,807 real transactions**. KNN won: **99.56% a
 
 Integrated 9 government road-safety datasets covering all 37 states. Built a 4-sheet Qlik Sense dashboard — Overview, Demographics, Safety Deep-Dive, and Insights — that surfaces accident hotspots for data-driven policy decisions.
 
-[GitHub](#)
+[GitHub](https://github.com/G5Vicky/qlik-road-accident-analysis-india)
 
 ---
 
